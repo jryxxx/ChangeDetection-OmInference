@@ -1,0 +1,222 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "ChangeDetetion"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ENABLE_DVPP_INTERFACE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/thtf/test/ChangeDetection/third_party/onnxruntime/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/thtf/test/ChangeDetection/third_party/opencv/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/thtf/test/ChangeDetection/third_party/opencv/include/opencv4"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/thtf/test/ChangeDetection/third_party/opencv/include/opencv4/opencv2"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/thtf/test/ChangeDetection/third_party/eigen/include/eigen3"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/usr/local/Ascend/ascend-toolkit/latest/runtime/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/usr/local/Ascend/thirdpart/aarch64/include/acllite"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "ChangeDetetion::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/usr/local/Ascend/ascend-toolkit/latest/runtime/lib64",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/usr/local/Ascend/ascend-toolkit/latest/runtime/lib64/stub",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/usr/local/Ascend/thirdpart/aarch64/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/thtf/test/ChangeDetection/third_party/onnxruntime/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/home/thtf/test/ChangeDetection/third_party/opencv/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/Ascend/ascend-toolkit/latest/runtime/lib64:/usr/local/Ascend/ascend-toolkit/latest/runtime/lib64/stub:/usr/local/Ascend/thirdpart/aarch64/lib:/home/thtf/test/ChangeDetection/third_party/onnxruntime/lib:/home/thtf/test/ChangeDetection/third_party/opencv/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lascendcl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lacl_dvpp",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lstdc++",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lacllite",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lopencv_world",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lonnxruntime",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ChangeDetetion",
+	"nameOnDisk" : "ChangeDetetion",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

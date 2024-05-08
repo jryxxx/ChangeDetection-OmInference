@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/thtf/test/ChangeDetection/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -DENABLE_DVPP_INTERFACE -I/home/thtf/test/ChangeDetection/third_party/onnxruntime/include -I/home/thtf/test/ChangeDetection/third_party/opencv/include -I/home/thtf/test/ChangeDetection/third_party/opencv/include/opencv4 -I/home/thtf/test/ChangeDetection/third_party/opencv/include/opencv4/opencv2 -I/home/thtf/test/ChangeDetection/third_party/eigen/include/eigen3 -I/usr/local/Ascend/ascend-toolkit/latest/runtime/include -I/usr/local/Ascend/thirdpart/aarch64/include/acllite  -g   -std=c++11 -o CMakeFiles/ChangeDetetion.dir/test.cpp.o -c /home/thtf/test/ChangeDetection/test.cpp",
+  "file": "/home/thtf/test/ChangeDetection/test.cpp"
+}
+]

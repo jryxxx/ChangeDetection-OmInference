@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++ -fPIC -g  -shared -Wl,-soname,libChangeDetetion_lib.so -o libChangeDetetion_lib.so CMakeFiles/ChangeDetetion_lib.dir/src/ChangeDetection.cpp.o 
